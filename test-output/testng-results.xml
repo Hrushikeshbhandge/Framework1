@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-29T10:48:34 IST" name="Suite" finished-at="2022-10-29T10:48:42 IST" duration-ms="7882">
+    <groups>
+    </groups>
+    <test started-at="2022-10-29T10:48:34 IST" name="Test" finished-at="2022-10-29T10:48:42 IST" duration-ms="7882">
+      <class name="com.Test.Test2">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:com.Test.Test2@6379eb]" started-at="2022-10-29T10:48:38 IST" name="BrowserOpen" finished-at="2022-10-29T10:48:40 IST" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method signature="TestA()[pri:0, instance:com.Test.Test2@6379eb]" started-at="2022-10-29T10:48:40 IST" name="TestA" finished-at="2022-10-29T10:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.Test.Test2@6379eb]" started-at="2022-10-29T10:48:40 IST" name="BrowserClose" finished-at="2022-10-29T10:48:40 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.Test.Test2 -->
+      <class name="com.Test.Test1">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:com.Test.Test1@123ef382]" started-at="2022-10-29T10:48:34 IST" name="BrowserOpen" finished-at="2022-10-29T10:48:37 IST" duration-ms="2943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method signature="VerifyFBlogin()[pri:0, instance:com.Test.Test1@123ef382]" started-at="2022-10-29T10:48:37 IST" name="VerifyFBlogin" finished-at="2022-10-29T10:48:38 IST" duration-ms="156" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Facebook] but found [Log in to Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Facebook] but found [Log in to Facebook]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Test.Test1.VerifyFBlogin(Test1.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFBlogin -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.Test.Test1@123ef382]" started-at="2022-10-29T10:48:38 IST" name="BrowserClose" finished-at="2022-10-29T10:48:38 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.Test.Test1 -->
+      <class name="com.Test.Test3">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:com.Test.Test3@294425a7]" started-at="2022-10-29T10:48:40 IST" name="BrowserOpen" finished-at="2022-10-29T10:48:42 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method signature="TestB()[pri:0, instance:com.Test.Test3@294425a7]" started-at="2022-10-29T10:48:42 IST" name="TestB" finished-at="2022-10-29T10:48:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.Test.Test3@294425a7]" started-at="2022-10-29T10:48:42 IST" name="BrowserClose" finished-at="2022-10-29T10:48:42 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.Test.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
